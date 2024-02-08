@@ -1,4 +1,3 @@
-import { Typography } from "@material-ui/core";
 import React, { useState } from "react";
 import Data3 from "../animations/Animation - 1707026607235.json";
 import Lottie from "react-lottie";
@@ -222,9 +221,9 @@ const Register = () => {
           </div>{" "}
         </div>
         <div className=" flex flex-col items-center justify-center gap-5 ">
-          <Typography className=" self-start text-2xl text-white font-bold ">
+          <p className=" self-start text-2xl text-white font-bold ">
             Technical Events :{" "}
-          </Typography>
+          </p>
           <div className=" flex items-center justify-center flex-wrap gap-6 max-h-[150px] overflow-y-auto border-2 shadow-md rounded-md p-3 shadow-purple-700">
             {technicalEvents &&
               technicalEvents.map((item, index) => {
@@ -246,9 +245,9 @@ const Register = () => {
           </div>
         </div>
         <div className=" flex flex-col items-center justify-center gap-5 ">
-          <Typography className=" self-start text-2xl text-white font-bold ">
+          <p className=" self-start text-2xl text-white font-bold ">
             Cultural Events :{" "}
-          </Typography>
+          </p>
           <div className=" flex items-center justify-center flex-wrap gap-6 max-h-[150px] overflow-y-auto border-2 shadow-md rounded-md p-3 shadow-purple-700">
             {technicalEvents.map((item, index) => {
               return (
@@ -268,9 +267,9 @@ const Register = () => {
           </div>
         </div>
         <div className=" flex flex-col items-center justify-center gap-5 ">
-          <Typography className=" self-start text-2xl text-white font-bold ">
+          <p className=" self-start text-2xl text-white font-bold ">
             Sports Events :{" "}
-          </Typography>
+          </p>
           <div className=" flex items-center justify-center flex-wrap gap-6 max-h-[150px] overflow-y-auto border-2 shadow-md rounded-md p-3 shadow-purple-700">
             {technicalEvents.map((item, index) => {
               return (

@@ -7,7 +7,6 @@ import Data3 from "../animations/Animation - 1707026607235.json";
 import EventSection from "../components/EventSection";
 import Accordion from "../components/Accordion";
 import Contact from "./Contact";
-// import Timeline from "./Timeline";
 import Prizes from "./Prizes";
 const Home = () => {
   const words = [
